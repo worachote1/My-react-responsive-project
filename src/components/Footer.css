@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+.footer-container{
+    background-color: #242424;
+    padding: 4rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-subscription{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    padding: 1.5rem;
+    color: #fff;
+
+    background: greenyellow;
+}
+.footer-subscription > p{
+    font-family: 'Kanit', sans-serif;
+    
+}
+.footer-subscription-heading{
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+}
+.footer-subscription-text{
+    margin-bottom: 1.5rem;
+    font-size: 1.4rem;
+}
+
+.footer-input{
+    outline: none;
+    padding: 0.4rem 0.6rem;
+    border-radius: 4px;
+    font-size: 1.4rem;
+    margin-bottom: 1.5rem;
+}
+
+.footer-links{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 1000px;
+
+    background-color: red;
+}
+.footer-link-wrapper{
+    display: flex;
+}
+.footer-link-items{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start ;
+    margin: 1.4rem;
+}
+.footer-link-items  h2{
+    margin-bottom: 2rem;    
+    color: #fff;
+}
+.footer-link-items a{
+    text-decoration: none;
+    margin-bottom: 0.7rem;
+    color: #fff;
+}
+.footer-link-items a:hover{
+    color: black;
+    transition: 0.4s;
+}
+
+/* Social icon*/
+.social-icon-link{
+    color: #fff;
+    font-size: 2rem;
+}
+.social-media{
+    width: 100%;
+    max-width: 1000px;
+    
+}
+.social-media-wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    width: 100%; 
+    max-width:1000px;
+    margin: 40px auto 0 auto;   
+    background-color: chocolate;
+} 
+.social-icons{
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+}
+
+.social-logo{
+    text-decoration: none;
+    color:teal;
+    margin-left: 1.2rem;
+    cursor: pointer;
+    font-size: 2.2rem;
+    display: flex;
+}
+
+.website-rights{
+    color: #fff;
+    font-size: 1.4rem;
+}
+
+@media screen and (max-width: 820px) {
+    .footer-links {
+      padding-top: 2rem;
+    }
+  
+    .footer-input {
+      width: 100%;
+    }
+  
+    .btn {
+      width: 100%;
+    }
+  
+    .footer-link-wrapper {
+      flex-direction: column;
+    }
+  
+    .social-media-wrap {
+      flex-direction: column;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+  }
